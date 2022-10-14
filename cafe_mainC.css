@@ -1,0 +1,206 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:oldlace;
+    }
+
+
+.container .header{
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    left:20px;
+    color: #8e492b;
+        }
+.container .header h1{
+    position:relative;
+    top:10px;
+    height:60px;
+    }
+
+.container .list ul li{
+        display: inline-block;
+        margin:25px 5px;
+        }
+.container .list ul li:nth-child(3){
+        margin: 0px 50px
+        }
+.container .list ul li a{
+        text-decoration-line:none;
+        color:#a2492b;
+        }
+.container .list ul li a:hover{
+        color:rosybrown;
+
+        }
+
+
+.picture img{
+        background-image: url("img/cafe.jpg");
+        width: 100vw;
+        height: 600px;
+        object-fit:cover;
+        display:inline;
+        margin: 0 auto;
+
+        }
+
+
+.menu ul{
+    display: flex;
+    justify-content:space-between;
+    width: 60%;
+    height: 100px;
+    margin: 0px auto;
+    }
+
+.menu ul li {
+    flex: auto;
+    text-align: center;
+    justify-content: center;
+    list-style-type:none;
+    }
+
+.menu ul li a{
+    position: relative;
+    top:40px;
+    text-decoration-line:none;
+    background:none;
+    border: 2px solid #908279;
+    padding: 5px 12px;
+    color: #545a03;
+    border-radius: 15px;
+    margin-top:10px;
+    outline: none;
+    cursor:pointer;
+    transition: all .4s;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    }
+
+.menu ul li a:hover{
+    background-color:wheat;
+    }
+
+ul li{
+    list-style:none;
+    }
+
+a{
+    text-decoration:none;
+    }
+
+.imglist{
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px;
+    }
+
+.imglist ul{
+    font-size:0;
+    }
+
+.imglist .item{
+    display: inline-block;
+    width: 30%;
+    margin-left: 5%;
+    }
+
+.imglist .item:nth-child(-n+3){
+    margin-top: 0;
+    }
+
+.imglist .item:nth-child(3n-2){
+    margin-left: 0;
+    }
+
+.imglist .item .img{
+    height: 200px;
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.6);
+    }
+
+.imglist .item .cont{
+    padding: 15px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+.imglist .item strong{
+    margin-top: 0px;
+    display: block;
+    font-size:16px;
+    letter-spacing: -1px;
+    }
+
+.imglist .item p{
+    font-size:13px;
+    letter-spacing: -1px;
+    }
+
+.imglist .item a{
+    display: inline-block;
+    margin-top:10px;
+    padding: 5px 10px;
+    background:#FFEAD0;
+    font-size:14px;
+    color: #803232;
+    font-weight: 700;
+    letter-spacing: -1px;
+    }
+
+.imglist .item1 .img{ background-image:url("img/STAR_A.png"); }
+.imglist .item2 .img{ background-image:url("img/TWOSOME_A.png"); }
+.imglist .item3 .img{ background-image:url("img/EDIYA_A.png"); }
+.imglist .item4 .img{ background-image:url("img/MEGA_A.png"); }
+.imglist .item5 .img{ background-image:url("img/hollys_A.png"); }
+.imglist .item6 .img{ background-image:url("img/STAR_L.png"); }
+.imglist .item7 .img{ background-image:url("img/TWOSOME_L.png"); }
+.imglist .item8 .img{ background-image:url("img/EDIYA_L.png"); }
+.imglist .item9 .img{ background-image:url("img/MAGA_L.png"); }
+.imglist .item10 .img{ background-image:url("img/hollys_L.png"); }
+
+/*
+.allimg .box{
+    border: 1px solid blue;
+    width: 30%;
+    height: 350px;
+    background-color: white;
+    }
+*/
+
+/*
+.allimg .box .boximg{
+    border: 1px solid black;
+    height: 250px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:10px;
+    background-image: url("img/STAR_A.png");
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
